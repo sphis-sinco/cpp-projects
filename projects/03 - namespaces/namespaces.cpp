@@ -9,7 +9,7 @@ namespace sally{
 
 int main()
 {
-        std::cout << "What's Bob's age again?\n" << bob::age << " right?";
+        std::cout << "What's Bob's age again?\n" << bob::age << " right?\n";
         std::cout << "And sallies...\n" << sally::age << " right?";
 
         return 0;
