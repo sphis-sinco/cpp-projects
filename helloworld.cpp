@@ -1,8 +1,7 @@
 #include <iostream>
-using namespace std;
 
 int main()
 {
-        cout << 'I like trains';
+        std::cout << "Hello world!";
         return 0;
 }
