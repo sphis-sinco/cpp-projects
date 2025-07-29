@@ -15,12 +15,12 @@ int main()
 
         if (answer == "" + (a + b))
         {
-                std::cout << "\nCorrect";
+                std::cout << "Correct";
         } else if (answer == "21" && a == 9 && b == 10)
         {
-                std::cout << "\nYou stupid.";
+                std::cout << "You stupid.";
         } else {
-                std::cout << "\nIncorrect.";
+                std::cout << "Incorrect.";
         }
 
         return 0;
