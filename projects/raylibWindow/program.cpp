@@ -2,9 +2,13 @@
 
 // g++ program.cpp -o program -lraylib -lgdi32 -lwinmm
 
+#define WINDOW_WIDTH 1280
+#define WINDOW_HEIGHT 720
+#define WINDOW_TITLE "raylib [core] example - basic window"
+
 int main(void)
 {
-        InitWindow(800, 450, "raylib [core] example - basic window");
+        InitWindow(WINDOW_WIDTH, WINDOW_HEIGHT, WINDOW_TITLE);
 
         while (!WindowShouldClose())
         {
